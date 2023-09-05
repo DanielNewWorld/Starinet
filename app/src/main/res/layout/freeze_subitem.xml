@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@drawable/freeze" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Заморозка лицевого счета"
+                android:id="@+id/txtAccountIDActive"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/myGreen"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView4" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Заморозка счета - это БЕСПЛАТНАЯ возможность абоненту самостоятельно временно приостановить предоставление услуг с сохранением учетных данных"
+                android:id="@+id/textView47"
+                android:textColor="@color/myBlack"
+                android:layout_marginLeft="10dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ваш лиц. счет:"
+                    android:id="@+id/textView48"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/myBlack" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtStatus"
+                    android:paddingLeft="5dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtInfoOut"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtInfoOut2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtVnimanie"
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtInfo2"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/myBlack"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtBalance" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtInfo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtCostUsluga" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtInfo3"
+                    android:layout_marginBottom="15dp"
+                    android:paddingRight="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtBalanceFreeze"
+                    android:textStyle="bold"
+                    android:textColor="@color/myGreen" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Заморозить"
+                android:id="@+id/btnFreeze"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Принцип тарификации услуги:"
+                android:id="@+id/textView35"
+                android:layout_column="2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/myBlack"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. При нажатии на кнопку &quot;Заморозить лицевой счет&quot; на счет будет зачислена сумма равная: [Стоимость Вашего тарифа в месяц] / [Кол-во дней в текущем месяце.] x [Кол-во оставшихся дней в текущем месяце]."
+                android:id="@+id/textView49"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. При разморозке счета произойдет обратный перерасчет, т.е. с Вашего счета будет снята сумма: [Стоимость Вашего тарифа в месяц] / [Кол-во дней в текущем месяце.] x [Кол-во оставшихся дней в текущем месяце]."
+                android:id="@+id/textView100"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ограничения:"
+                android:id="@+id/textView101"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/myBlack"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. услугой можно воспользоваться не более одного раза в месяц;"
+                android:id="@+id/textView102"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. разморозить счет можно в любой момент;"
+                android:id="@+id/textView103"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. максимальный срок действия услуги до 180 дней (приблизительно полгода). По истечению этого срока лицевой счет будет аннулирован и перенесен в график отключения. Договор будет расторгнут в одностороннем порядке. Возобновление предоставления услуг будет возможно только при условии полной оплаты задолженности"
+                android:id="@+id/textView104"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Альтернатива:"
+                android:id="@+id/textView105"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/myBlack"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Если Вы не успели вовремя воспользоваться бесплатной услугой заморозки, у Вас есть возможность получить перерасчет с помощью платной услуги перерасчет"
+                android:id="@+id/textView106"
+                android:layout_marginLeft="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

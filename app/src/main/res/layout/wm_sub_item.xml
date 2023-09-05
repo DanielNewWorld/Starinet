@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@drawable/wm" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Пополнение лицевого счета через WebMoney"
+                android:id="@+id/txtAccountIDActive"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/myGreen"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView4"
+        android:layout_marginLeft="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="На данной странице Вы можете пополнить свой лицевой счет не отходя от компьютера. "
+                android:id="@+id/textView113"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Минимальная сумма пополнения Интернета для вашего тарифного плана 10.00 грн"
+                android:id="@+id/textView118"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Срок зачисления средст на Ваш лицевой - мгновенно. "
+                android:id="@+id/textView130"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Оплатить услуги Интернет"
+                android:id="@+id/textView133"
+                android:textStyle="bold"
+                android:textColor="@color/myBlack"
+                android:layout_marginTop="15dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:text=" &lt;TextView                     android:layout_width=&quot;wrap_content&quot;                     android:layout_height=&quot;wrap_content&quot;                     android:text=&quot;New Text&quot;                     android:id=&quot;@+id/textView134&quot; />">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Сумма пополнения:"
+                    android:id="@+id/textView134"
+                    android:layout_marginRight="5dp" />
+
+                <EditText
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/editText12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" грн 00 коп"
+                    android:id="@+id/textView137" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Далее"
+                android:id="@+id/button5"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* Сумма платежа должна быть целым числом, без указания копеек "
+                android:id="@+id/textView136"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Обратите внимание!"
+                android:id="@+id/textView140"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="При возникновении проблем в оплате данным способом звоните напрямую в Украинский платежный сервис UkrPays по телефону горячей линии: 0800-50-87-29 (бесплатный)."
+                android:id="@+id/textView143" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="При таком типе оплаты компания &quot;СТАРИНЕТ&quot; не имеет полномочий в решении проблем."
+                android:id="@+id/textView144" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

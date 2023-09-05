@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Введите ваш логин и пароль"
+            android:id="@+id/txtLoginPass"
+            android:layout_column="1"
+            android:textSize="20dp"
+            android:textColor="@color/myBlack"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtEditLogin"
+            android:layout_column="1"
+            android:textColor="@color/myBlack"
+            android:layout_marginBottom="30dp"
+            android:inputType="textPersonName" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:id="@+id/txtEditPass"
+            android:layout_column="1" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/seePass"
+            android:text="Показать пароль"
+            android:layout_column="1"
+            android:layout_marginBottom="5dp"
+            android:checked="false"
+            android:clickable="true" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Запомнить меня"
+            android:id="@+id/saveLoginPass"
+            android:layout_column="1"
+            android:layout_marginBottom="30dp"
+            android:checked="true"
+            android:textColorLink="@color/myGreen" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonNext"
+            android:text="> Далее"
+            android:background="@android:color/white"
+            android:layout_column="1"
+            android:textSize="35dp"
+            android:textColor="@color/myGreen"
+            android:layout_gravity="right" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgLoadBD"
+            android:layout_column="1"
+            android:layout_gravity="center_horizontal" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="> Оффлайн доступ"
+            android:id="@+id/noPass"
+            android:layout_column="1"
+            android:layout_gravity="left|bottom"
+            android:textColor="@color/myGreen"
+            android:background="@android:color/white" />
+
+    </TableRow>
+
+</TableLayout>

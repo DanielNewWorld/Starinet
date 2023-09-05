@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@drawable/friend" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Перевод средств на другой счет"
+                android:id="@+id/txtAccountIDActive"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/myGreen"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView4" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Услуга перевода средств на другой счет позволяет перевести средства со счета одного абонента другому. "
+                android:id="@+id/textView47"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Вы можете перечислить нужную Вам сумму на счет друга, подруги или знакомого со своего счета всего за одну минуту. "
+                android:id="@+id/textView48"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Минимальная сумма перевода: 5 гривен"
+                android:id="@+id/textView51"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Сумма перевода не может превышать сумму Вашего баланса"
+                android:id="@+id/textView52"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Перечислить средства можно только при наличии на Вашем счету более 5 гривен"
+                android:id="@+id/textView74"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Комиссия с перевода не взимается"
+                android:id="@+id/textView107"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Перевод возможен только между абонентами &quot;СТАРИНЕТ&quot;"
+                android:id="@+id/textView108"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Перевод должен осуществляться только с компьютера отправителя"
+                android:id="@+id/textView109"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Срок зачисления средст на лицевой - мгновенно"
+                android:id="@+id/textView110"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Будьте внимательны при указании суммы платежа и номера получателя"
+                android:id="@+id/textView15"
+                android:textStyle="bold"
+                android:textColor="@color/myBlack"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Неправильно перечисленные средства возврату не подлежат"
+                android:id="@+id/textView35"
+                android:layout_column="2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/myBlack"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Укажите необходимые данные для перевода"
+                android:id="@+id/textView49"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/myBlack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Номер счета получателя*:"
+                android:id="@+id/textView100"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtAccount"
+                android:inputType="number"
+                android:paddingBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Сумма перевода (грн)**:"
+                android:id="@+id/textView101"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtPerevod"
+                android:inputType="number"
+                android:paddingBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Назначение перевода***:"
+                android:id="@+id/textView102"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/edtComment"
+                android:paddingBottom="5dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Далее >>"
+                android:id="@+id/btnOplata"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* Номер счета, семизначное число, получатель может узнать в своём личном кабинете в разделе &quot;Услуги&quot; -> &quot;Личные данные&quot; -> &quot;Лицевой счет №&quot; "
+                android:id="@+id/txtInfo"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="** Сумма перевода должна быть целым числом, без указания копеек "
+                android:id="@+id/txtInfo2"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*** Назначение перевода получатель сможет видеть у себя в архиве платежей, а Вы у себя в архиве списаний"
+                android:id="@+id/txtInfo3"
+                android:layout_marginLeft="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

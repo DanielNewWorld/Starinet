@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/myGreen">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@drawable/pb1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Оплата наличными в отделениях &quot;ПриватБанка&quot;"
+                android:id="@+id/txtAccountIDActive"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/myGreen"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView4"
+        android:layout_marginLeft="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Теперь оплатить услуги сети и Интернета можно в любом отделении &quot;ПриватБанка&quot; г. Запорожье. "
+                android:id="@+id/textView113"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Комиссия банка за оплату услуг составляет 3 грн. не зависимо от суммы. "
+                android:id="@+id/textView118"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Для оплаты в отделениях &quot;ПриватБанка&quot; достаточно сказать, что хотите оплатить услуги &quot;СТАРИНЕТ&quot; и затем указать кассиру номер своего лицевого счета. "
+                android:id="@+id/textView130"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Срок зачисления средст на Ваш лицевой счет до 3-х банковских дней. "
+                android:id="@+id/textView131"
+                android:layout_marginBottom="5dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Номер Вашего лицевого счета:   "
+                    android:id="@+id/textView132"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtAccount"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:text=" &lt;TextView                     android:layout_width=&quot;wrap_content&quot;                     android:layout_height=&quot;wrap_content&quot;                     android:text=&quot;New Text&quot;                     android:id=&quot;@+id/textView134&quot; />">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Отделения &quot;ПриватБанка&quot; в Хортицком районе:"
+                    android:id="@+id/textView133"
+                    android:textStyle="bold"
+                    android:textColor="@color/myBlack" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 1-е Хортицкое отделение, адрес: ул.Заднепровская, 62б;"
+                android:id="@+id/textView134" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 3-е Хортицкое отделение, адрес: ул.Энтузиастов, 4;"
+                android:id="@+id/textView137" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 4-е Хортицкое отделение, адрес: пр-т Юбилейный, 26г;"
+                android:id="@+id/textView138" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" отделение №22, адрес: ул.Заднепровская, 13;"
+                android:id="@+id/textView139" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" отделение №85, адрес: ул.Новгородская, 28а;"
+                android:id="@+id/textView142" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" отделение №86, адрес: пр-т Юбилейный, 23б."
+                android:id="@+id/textView141" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="График работы и адреса других отделений &quot;ПриватБанка&quot; г.Запорожья можно посмотреть на сайте privatbank.ua"
+                android:id="@+id/textView135"
+                android:textStyle="bold"
+                android:textColor="@color/myBlack"
+                android:layout_marginTop="15dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

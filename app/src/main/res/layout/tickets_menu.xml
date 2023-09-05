@@ -1,0 +1,117 @@
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffffff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgTicket"
+                android:layout_column="0"
+                android:src="@drawable/help_white"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Создать новый тикет"
+                android:id="@+id/textView4"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgTicketAll"
+                    android:layout_column="0"
+                    android:src="@drawable/help_white"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Список всех тикетов"
+                    android:id="@+id/textView197"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/lnrTickets">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HELP центр – это один из самых простых и достоверных способов для абонента получить ответы на свои вопросы. "
+                android:id="@+id/textView7"
+                android:textColor="@color/myBlack"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Одним из достоинств этого способа является то, что все Ваши сообщения, а так же ответы сотрудников компании контролируются непосредственно Администрацией. "
+                android:id="@+id/textView25" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Поэтому ни вопрос, ни жалоба, ни простое сообщение не останутся без внимания. Исключением могут быть только сообщения, написанные в грубой форме с использованием ненормативной лексики. Каждый из нас уважает себя, поэтому, чем более корректно и четко изложена суть вопроса, тем быстрее и правильнее будет принято решение. Учитывайте это, пожалуйста, при написании сообщений. "
+                android:id="@+id/textView34" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Мы постоянно улучшаем качество предоставляемых нами услуг, поэтому для нас очень важно Ваше объективное мнение о работе компании и ее сотрудников. "
+                android:id="@+id/textView38" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Особое внимание мы уделяем Вашим предложениям и жалобам, в особенности жалобам на сотрудников компании. Мы не в силах контролировать каждого работника в отдельности, поэтому просим Вас помочь нам сделать наш штат добросовестным к своему делу. "
+                android:id="@+id/textView39" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Помните, что объективно подавая жалобу на работника компании, Вы помогаете себе и другим абонентам получить от нас максимально квалифицированный сервис. "
+                android:id="@+id/textView40" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>

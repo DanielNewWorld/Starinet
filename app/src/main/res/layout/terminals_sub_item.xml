@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/myGreen">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@drawable/terminals" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Оплата через терминалы пополнения счета"
+                android:id="@+id/txtAccountIDActive"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/myGreen"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView4"
+        android:layout_marginLeft="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Оплатить услуги Интернет можно в многочисленных терминалах пополнения счета. "
+                android:id="@+id/textView113"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Комиссия составляет 0 грн не зависимо от суммы платежа. "
+                android:id="@+id/textView118"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Средства зачисляются на Ваш лицевой счет мгновенно."
+                android:id="@+id/textView130"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Для совершения оплаты необходимо:"
+                android:id="@+id/textView131"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1, В &quot;Персональной статистике&quot; узнать номер транзакции"
+                android:id="@+id/textView31" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Выберите пункт &quot;Оплатить Visa, MasterCard, WebMoney, Terminal&quot; в подменю &quot;Оплата услуг сети&quot;"
+                android:id="@+id/textView37"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- В поле ввода уже вписана сумма Вашего тарифного плана. Если Вы захотите оплатить другую сумму - впишите ее вместо указанной"
+                android:id="@+id/textView41"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Далее нажмите на кнопку &quot;Оплатить&quot;"
+                android:id="@+id/textView112"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- В появившемся окне выберите тип оплаты - &quot;Оплата через терминал&quot; . Нажмите на кнопку &quot;Оплатить&quot; >>> Далее Вам необходимо запомнить, записать или распечатать &quot;Номер транзакции&quot;"
+                android:id="@+id/textView151"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2, В терминале, выбрать меню &quot;Оплата услуг&quot;, или &quot;Другое&quot; или &quot;Web-гроші, ігри та інше&quot; - в зависимости от модели терминала"
+                android:id="@+id/textView132" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Нажать значок &quot;UkrPays&quot;"
+                android:id="@+id/textView152"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Ввести номер транзакции, который мы получили ранее и внести деньги в терминал"
+                android:id="@+id/textView153"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="На этом пополнение счета завершено. Обязательно сохраняйте чек после оплаты, до внесения суммы на ваш счёт!"
+                android:id="@+id/textView9"
+                android:layout_marginBottom="5dp" />
+
+<!--            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:text=" &lt;TextView                     android:layout_width=&quot;wrap_content&quot;                     android:layout_height=&quot;wrap_content&quot;                     android:text=&quot;New Text&quot;                     android:id=&quot;@+id/textView134&quot; />">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView6"
+                    android:src="@drawable/logo_min"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="При оплате выбирайте провайдер &quot;СТАРИНЕТ&quot; "
+                    android:id="@+id/textView133"
+                    android:textStyle="bold"
+                    android:textColor="@color/myGreen" />
+
+            </LinearLayout>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Оплатить услуги Интернет можно через терминалы &quot;City-Pay&quot;, &quot;EasySoft&quot;, &quot;24 non-stop&quot;, &quot;QIWI&quot; (Об&apos;еднана Система Миттєвих Платежів), &quot;RegulPay&quot;, &quot;Splaty&quot;, &quot;Платежка&quot;, &quot;PEGAS&quot;"
+                android:id="@+id/textView134" />
+
+           <!-- <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Неполный список адресов терминалов Хортицкого района:"
+                android:id="@+id/textView135"
+                android:textStyle="bold"
+                android:textColor="@color/myBlack"
+                android:layout_marginTop="15dp" />-->
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

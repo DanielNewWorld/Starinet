@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="starinet_02072015/app" />
+      <module fileurl="file://$PROJECT_DIR$/starinet_02072015.iml" filepath="$PROJECT_DIR$/starinet_02072015.iml" group="starinet_02072015" />
+    </modules>
+  </component>
+</project>

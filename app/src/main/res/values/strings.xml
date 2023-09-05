@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">СТАРИНЕТ</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="screen_start">Это старт</string>
+
+    <string name="title_section1">Старт</string>
+    <string name="title_section2">Услуги</string>
+    <string name="title_section3">Пополнить</string>
+    <string name="title_section4">Отчеты</string>
+    <string name="title_section5">Настройки</string>
+    <string name="title_section6">Help-центр</string>
+    <string name="title_section7">Контакты</string>
+
+    <string name="title_section8">Старт: Лицевой счет</string>
+
+    <string name="news">Новых уведомлений нет</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">1</string>
+
+    <string name="prompt_login">Лиц.счет или логин</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in_short">Войти</string>
+    <string name="action_sign_in">Войти или зарегистрироваться</string>
+
+    <string name="name_BD">myDB27</string>
+    <string name="isp">2</string> // 1 - СитиНет: 2 - СТАРИНЕТ
+</resources>
